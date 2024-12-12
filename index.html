@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+    <h1>Santa Randomizer</h1>
+    <br>
+    <p>How to use:</p>
+    <ul>
+        <li>Enter one name per line</li>
+        <li>Enter at least 2 names</li>
+        <li>Total characters maximum is 255 characters per line</li>
+        <li>Generate</li>
+        <li>Make sure the total names are adding to an <strong>Even</strong> number</li>
+    </ul>
+    <textarea id="input" rows="14" cols="25" placeholder="Enter one name per line"></textarea>
+    <br>
+    <button onclick="gen()">Generate Names</button>
+
+    <hr>
+    <h2>Assigned names</h2>
+    <p id="assigned"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
