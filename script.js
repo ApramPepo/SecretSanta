@@ -24,7 +24,7 @@ function gen() {
 
     const assigned = [];
     for (let i = 0; i < names.length; i++) {
-        assigned.push(`${names[i]} will gift 🎅🎄 ${shuffledNames[i]}`);
+        assigned.push(`${names[i]} 🎅will gift🎄 ${shuffledNames[i]}`);
     }
     document.getElementById("assigned").innerHTML = assigned.join("<br>");
 }
