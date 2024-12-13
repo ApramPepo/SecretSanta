@@ -16,7 +16,7 @@ function gen() {
         alert("Make sure to enter even number of names");
         return;
     }
-    const shufflednames = shuffle([...names]);
+    const shuffledNames = shuffle([...names]);
     const assigned = [];
     for (let i = 0; i < names.length; i++)
     {
