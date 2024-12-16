@@ -32,3 +32,16 @@ h1, h2, ul {
     padding: 20px;
     margin: 30px;
 }
+
+.how {
+    background-color: pink;
+    border-radius: 25px;
+    width: 135px;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 23px;
+    position: relative;
+
+}
+
+
