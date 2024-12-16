@@ -27,3 +27,8 @@ h1, h2, ul {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.how, ul {
+    padding: 20px;
+    margin: 30px;
+}
