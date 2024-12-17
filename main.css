@@ -44,4 +44,11 @@ h1, h2, ul {
 
 }
 
+.guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
