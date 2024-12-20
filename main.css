@@ -12,6 +12,11 @@ body {
     height: 100vh;
 }
 
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
 h1, h2, ul {
     text-align: center;
 }
@@ -47,6 +52,14 @@ h1, h2, ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+ul li {
+    display: flexbox;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
 }
 
 
